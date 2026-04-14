@@ -64,7 +64,7 @@ It will be viewable at: https://jil-mueller.github.io/plotly-choropleth-tutorial
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 plotly-choropleth-tutorial/
 │
 ├── README.md
