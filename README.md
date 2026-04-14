@@ -64,6 +64,12 @@ It will be viewable at: https://jil-mueller.github.io/plotly-choropleth-tutorial
 
 ---
 
+## Github Pages Link
+
+The final product can be viewed at: https://jil-mueller.github.io/plotly-choropleth-tutorial/
+
+---
+
 ## Repository Structure
 plotly-choropleth-tutorial/
 │
