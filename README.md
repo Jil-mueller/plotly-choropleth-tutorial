@@ -60,6 +60,37 @@ The final interactive map is exported as:
 
 **`emissions_map.html`**
 
-It will be viewable at:
+It will be viewable at: https://jil-mueller.github.io/plotly-choropleth-tutorial/emissions_map.html
+
+---
+
+## 📁 Repository Structure
+plotly-choropleth-tutorial/
+│
+├── README.md
+├── index.html
+├── tutorial.ipynb
+│
+├── data/
+│   └── corporate_ghg.csv
+│
+├── images/
+│   └── map_preview.png
+│
+└── emissions_map.html
 
 
+---
+
+## How to Run the Notebook
+
+Install dependencies: pip install pandas plotly
+
+Then open the notebook: jupyter notebook tutorial.ipynb
+
+
+---
+
+## License
+
+This project is for educational use as part of an honors option assignment.
