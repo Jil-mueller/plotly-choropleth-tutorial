@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plotly Choropleth Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .screenshot {
+            margin: 20px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 18px;
+            margin: 10px 5px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        a.button:hover {
+            background-color: #217dbb;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Interactive Choropleth Maps with Plotly</h1>
+<p>
+    This project is an honors option tutorial demonstrating how to build an 
+    interactive choropleth map using <strong>Plotly</strong> and a publicly available dataset 
+    of global corporate greenhouse gas emissions (2022–2023).  
+</p>
+
+<p>
+    The tutorial walks through:
+</p>
+<ul>
+    <li>Loading and cleaning a real dataset</li>
+    <li>Converting country names to ISO codes</li>
+    <li>Building an interactive choropleth map</li>
+    <li>Styling and customizing the visualization</li>
+    <li>Exporting the final map as HTML</li>
+    <li>Hosting the visualization using GitHub Pages</li>
+</ul>
+
+<h2>📘 Tutorial Notebook</h2>
+<p>
+    View the full step-by-step Jupyter Notebook here:
+</p>
+<p>
+    <a class="button" href="tutorial.ipynb">Open tutorial.ipynb</a>
+</p>
+
+<h2>🌍 Interactive Choropleth Map</h2>
+<p>
+    View the final interactive map here:
+</p>
+<p>
+    <a class="button" href="emissions_map.html">Open emissions_map.html</a>
+</p>
+
+<h2>🖼 Preview Screenshot</h2>
+<div class="screenshot">
+    <img src="images/map_preview.png" alt="Choropleth Map Preview">
+</div>
+
+<h2>📊 Dataset</h2>
+<p>
+    Dataset source: 
+    <a href="https://www.kaggle.com/datasets/alitaqishah/global-corporate-ghg-emissions-20222023">
+        Global Corporate GHG Emissions (2022–2023)
+    </a>
+</p>
+
+<h2>📄 Repository Contents</h2>
+<ul>
+    <li><strong>tutorial.ipynb</strong> — Full step-by-step tutorial</li>
+    <li><strong>emissions_map.html</strong> — Final interactive Plotly map</li>
+    <li><strong>data/corporate_ghg.csv</strong> — Dataset used in the tutorial</li>
+    <li><strong>images/map_preview.png</strong> — Screenshot of the final map</li>
+    <li><strong>README.md</strong> — Project overview and instructions</li>
+</ul>
+
+</body>
+</html>
